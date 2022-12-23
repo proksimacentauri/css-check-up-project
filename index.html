@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>github profile css challenge</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header-container">
+    <ul class="header-list">
+      <li>
+        <a href="#"> 
+          <svg width="32" height="32">
+            <image width="32" height="32" href="assets/github-mark-white.svg"/>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <div>Product</div>
+        <svg class="header-icons" width="16" height="16">
+          <image width="16" height="16" href="assets/chevron-down-16.svg"/>
+        </svg>
+      </li>
+      <li>
+        <div>Solutions</div>
+        <svg class="header-icons" width="16" height="16">
+          <image width="16" height="16" href="assets/chevron-down-16.svg"/>
+        </svg>
+      </li>
+      <li>
+        <div>Open Source</div>
+        <svg class="header-icons" width="16" height="16">
+          <image width="16" height="16" href="assets/chevron-down-16.svg"/>
+        </svg>
+      </li>
+      <li>Pricing</li>
+    </ul>
+    <div class="search-container">
+      <div class="search-bar">
+        <input class="search-input" placeholder="Search" type="text">
+        <div style="display: flex; border-radius: 6px; border: 1px #30363d solid">
+          <svg class="searchbar-icon" width="16" height="16">
+            <image width="16" height="16" href="assets/chevron-down-16.svg"/>
+          </svg>
+        </div>
+      </div>
+      <button class="sign-in">Sign in</button>
+      <button>Sign up</button>
+    </div>
+  </header>
+  <div class="container">
+    <div class="layout navbar-container">
+      <div class="side-bar"></div>
+      <ul class="navbar-list">
+        <li class="active">
+          <a>
+            <svg class="navbar-icons" width="16" height="16">
+              <image width="16" height="16" href="assets/book-16.svg"/>
+            </svg>
+           <div>Overview</div>
+          </a>
+        </li>
+        <li>
+          <a>
+            <svg class="navbar-icons" width="16" height="16">
+              <image width="16" height="16" href="assets/repo-16.svg"/>
+            </svg>
+            <div>Repositories</div>
+            <span class="counter-bubble">11</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <svg class="navbar-icons" width="16" height="16">
+              <image width="16" height="16" href="assets/table-16.svg"/>
+            </svg>
+           <div>Projects</div>
+          </a>
+        </li>
+        <li>
+          <a>
+          <svg class="navbar-icons" width="16" height="16">
+            <image width="16" height="16" href="assets/package-16.svg"/>
+          </svg>
+          <div>Packages</div>
+          </a>
+        </li>
+        <li>
+          <a>
+          <svg class="navbar-icons" width="16" height="16">
+            <image width="16" height="16" href="assets/star-16.svg"/>
+          </svg>
+          <div>Stars</div>
+          <span class="counter-bubble">20</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div class="profile-container">
+        <div class="info-container">
+          <div class="avatar-container">
+            <img src="assets/profile-avatar.jpg" class="avatar-user" />
+            <div class="status-container">
+              <div class="status-icon"><img  class="status-img" src="assets/shipit.png"></div>
+            </div>
+          </div>
+          <div class="name-container">
+            <div class="profile-name">Donna Soujeh</div>
+            <div class="profile-username">Alphacentauri</div>
+          </div>
+          <div>
+          <button class="follow-button">Follow</button>
+          </div>
+          <div class="about-me-container">I like drinking tea in my freetime. ( •_•)</div>
+          <div class="followers-container">
+            <div class="align-text-with-icons">
+              <svg class="follow-icon" width="16" height="16">
+                <image width="16" height="16" href="assets/people-16.svg"/>
+              </svg>
+              <a class="followers-link">
+              <span class="location-title">3</span> 
+              followers
+              </a>
+            </div>
+            <div style="margin: 0px 8px">· </div>
+            <a class="follower-link"><span class="location-title"> 4</span> following</a>
+          </div>
+          <div class="location-container">
+            <svg class="profile-icons" width="16" height="16">
+              <image width="16" height="16" href="assets/location-16.svg"/>
+            </svg>
+            <span class="location-title">
+              Stockholm
+            </span>
+          </div>
+          <div class="block-report-container"><a class="block-report">Block or Report</a></div>
+        </div>
+        <div class="main-content-container">
+          <div class="repos-container">
+            <div>
+              <h2>Popular repositories</h2>
+              <div class="grid-container">
+                <div class="grid-item">
+                  <div class="box-title">
+                    <a class="box-link" href="#">Express mongoose practice</a>
+                    <span class="publicity-label">Public</span>
+                  </div>
+                  <div class="box-paragraph">Express project practicing using mongoose.</div>
+                  <div class="language-label">
+                    <div style="margin-right: 16px"><span class="flag javascript"></span> Javascript</div>
+                    <div class="stars-label">
+                      <svg class="box-icon" width="16" height="16">
+                      <image width="16" height="16" href="assets/star-16.svg"/>
+                      </svg>
+                      211
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="box-title">
+                    <a class="box-link" href="#">teashop locator</a>
+                    <span class="publicity-label">Public</span>
+                  </div>
+                  <div class="box-paragraph">Locating teashops near you using react.</div>
+                  <div class="language-label">
+                    <div style="margin-right: 16px"><span class="flag javascript"></span> Javascript</div>
+                    <div class="stars-label">
+                      <svg class="box-icon" width="16" height="16">
+                      <image width="16" height="16" href="assets/star-16.svg"/>
+                      </svg>
+                      20
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="box-title">
+                    <a class="box-link" href="#">pudge player bot</a>
+                    <span class="publicity-label">Public</span>
+                  </div>
+                  <div class="box-paragraph">Making a pudge bot using lua.</div>
+                  <div class="language-label">
+                    <div style="margin-right: 16px"><span class="flag lua"></span> Lua</div>
+                    <div class="stars-label">
+                      <svg class="box-icon" width="16" height="16">
+                      <image width="16" height="16" href="assets/star-16.svg"/>
+                      </svg>
+                      12
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <div class="box-title">
+                    <a class="box-link" href="#">Dotnet webserver trainingGround</a>
+                    <span class="publicity-label">Public</span>
+                  </div>
+                  <div class="box-paragraph">This project is my practice during the salt .dotnet precourse!</div>
+                  <div class="language-label">
+                    <div style="margin-right: 16px"><span class="flag c-sharp"></span> C#</div>
+                    <div class="stars-label">
+                      <svg class="box-icon" width="16" height="16">
+                      <image width="16" height="16" href="assets/star-16.svg"/>
+                      </svg>
+                      2
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2>342 Contributions</h2>
+              <div class="activity-chart-box">
+                <div class="graph-container">
+                  <div class="contributions-chart">
+                    <ul class="months">
+                      <li>Jan</li>
+                      <li>Feb</li>
+                      <li>Mar</li>
+                      <li>Apr</li>
+                      <li>May</li>
+                      <li>Jun</li>
+                      <li>Jul</li>
+                      <li>Aug</li>
+                      <li>Sep</li>
+                      <li>Oct</li>
+                      <li>Nov</li>
+                      <li>Dec</li>
+                    </ul>
+                    <ul class="days">
+                      <li>Sun</li>
+                      <li>Mon</li>
+                      <li>Tue</li>
+                      <li>Wed</li>
+                      <li>Thu</li>
+                      <li>Fri</li>
+                      <li>Sat</li>
+                    </ul>
+                    <ul class="squares">
+                      <!-- added via javascript -->
+                    </ul>
+                  </div>
+                  <div style="display: flex; justify-content: space-between;">
+                    <a class="chart-link" href="#">Learn how we count contributions</a>
+                    <ul class="keys">
+                      <li>Less</li>
+                      <li class="keyssquare square0"></li>
+                      <li class="keyssquare square1"></li>
+                      <li class="keyssquare square2"></li>
+                      <li class="keyssquare square3"></li>
+                      <li class="keyssquare square4"></li>
+                      <li>More</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contribution-activity-container">
+              <h2>Contribution activity</h2>
+              <div>
+                <button>Show more activity</button>
+              </div>
+              <div class="unexpected-text">Seeing something unexpected? Take a look at the <a href="#" class="unexpected-text-link">GitHub profile guide.</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul class="footer-list">
+        <li class="git-logo">
+          <a class="footer-icon" href="#"> 
+            <svg width="24" height="24">
+              <image width="24" height="24" href="assets/github-mark-white.svg"/>
+            </svg>
+          </a>
+          <span>© 2022 GitHub, Inc.</span>
+        </li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Status</a></li>
+        <li><a href="#">Docs</a></li>
+        <li><a href="#">Contact </a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">API</a></li>
+        <li><a href="#">Training</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+<script type="text/javascript" src="generate-squares.js"></script>
+</html>
