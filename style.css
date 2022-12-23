@@ -196,10 +196,7 @@ button:hover {
   padding: 0px 32px;
   display: flex;
   margin-top: 24px;
-}
-
-.contribution-activity-container {
-
+  margin-bottom: 48px;
 }
 
 .info-container {
@@ -485,7 +482,7 @@ h2 {
 
 .chart-link {
   font-size: 12px;
-  margin-left: 24px;
+  margin-left: 46px;
   color: #8b949e;
   margin-bottom: 4px;
 }
@@ -528,6 +525,7 @@ h2 {
   font-size: 12px;
   margin: 0px;
   padding-left: 24px;
+  justify-content: center;
 }
 
 .squares { 
@@ -599,9 +597,76 @@ h2 {
 .keyssquare {
   width: var(--square-size);
   height: var(--square-size);
-  margin: 4px;
+  margin: 0px 2px;
 }
 
 .lua {
   background-color: #000080;
+}
+
+.contribution-activity-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.contribution-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.contribution-date {
+  padding: 0px 16px 0px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #c9d1d9;
+  background-color: #0d1117;
+}
+
+.contribution-line {
+  height: 6px;
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 16px;
+  padding: 4px 8px 4px 0px;
+}
+
+.activity-showcase {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #8b949e;
+  margin: 24px 0px;
+}
+
+.activity-button {
+  width: 100%;
+  background-color: #0d1117;
+  font-size: 12px;
+  color: #58a6ff;
+  padding: 8px 6px;
+}
+
+.activity-button:hover {
+  background-color: #161b22;
+  color: #58a6ff;
+}
+
+.sidebar {
+  list-style: none;
+  font-size: 12px;
+  color: #8b949e;
+  width: 15%;
+  padding-left: 32px;
+}
+
+.sidebar li {
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.active-sidebar {
+  border-radius: 6px;
+  color: #fff;
+  background-color: #1f6feb;
 }
